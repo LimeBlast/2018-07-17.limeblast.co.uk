@@ -1,13 +1,14 @@
 # Site settings
-title: Clean Blog
+title: Lime Blast
+author: Daniel Hollands
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "The semi-sane ramblings of a developer based in Birmingham"
 baseurl: "/"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+url: "http://limeblast.co.uk"
+twitter_username: LimeBlast
+github_username:  LimeBlast
+facebook_username:  LimeBlast
 
 # Build settings
 markdown: kramdown
