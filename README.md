@@ -4,6 +4,7 @@ The official repo for the GitHub Pages hosted [Lime Blast Blog](http://limeblast
 
 # Local development
 - Clone the repo
+- run `bundle install`
 - run `gulp`
 
 # Credits
