@@ -4,6 +4,7 @@ title:         "Error 404: File not found"
 description:   "The page you are looking for cannot be found at this URL"
 header-img:    "img/404-bg.jpg"
 header-credit: "http://www.freeimages.com/photo/do-you-trust-me-1310128"
+permalink:     /404.html
 ---
 
 I've recently [archived an old copy of the site](http://2015-10-14.limeblast.co.uk), it's possible what you're looking for can be found there. Failing that, why not [return to the homepage](/).
