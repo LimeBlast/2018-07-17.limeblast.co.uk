@@ -17,10 +17,12 @@
           <a href="{{ site.baseurl }}">Home</a>
         </li>
         {% for page in site.pages %}
-          {% if page.title %}
-          <li>
-            <a href="{{ page.url }}">{{ page.title }}</a>
-          </li>
+          {% if page.url != '/404/' %}
+            {% if page.title %}
+            <li>
+              <a href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </ul>

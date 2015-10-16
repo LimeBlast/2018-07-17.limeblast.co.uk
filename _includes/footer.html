@@ -41,7 +41,12 @@
           </li>
           {% endif %}
         </ul>
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ site.time | date: '%Y' }}</p>
+        <p class="copyright text-muted">
+          Copyright &copy; {{ site.author }} {{ site.time | date: '%Y' }}
+          {% if page.header-credit %}
+            <a href="{{ page.header-credit}}">Header image source.</a>
+          {% endif %}
+        </p>
       </div>
     </div>
   </div>
