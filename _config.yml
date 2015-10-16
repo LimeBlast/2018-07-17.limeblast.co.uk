@@ -1,7 +1,7 @@
 # Site settings
 title: Lime Blast
 author: Daniel Hollands
-header-img: img/home-bg.jpg
+header-img: img/default-bg.jpg
 email: your-email@yourdomain.com
 description: "The semi-sane ramblings of a developer based in Birmingham"
 baseurl: "/"
