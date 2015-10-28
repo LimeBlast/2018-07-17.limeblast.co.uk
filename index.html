@@ -20,9 +20,6 @@ header-credit: "http://www.freeimages.com/photo/rye-with-lime-tree-4-1353646"
 
   <p class="post-meta">
     Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}.
-    {% assign readtime = page.content | strip_html | number_of_words | append: '.0' | divided_by:180 %}
-    <i class="glyphicon glyphicon-time"></i>
-    {% if readtime > 1 and readtime < 1.5 %}1 minute read{% endif %}{% if readtime > 1.5 %}<span class="time">{{ readtime }}</span> minute read{% endif %}{% if readtime < 1 %}Less than 1 minute read{% endif %}.
   </p>
 </div>
 <hr>
